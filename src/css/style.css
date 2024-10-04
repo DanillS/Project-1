@@ -14,6 +14,11 @@ body {
     margin-left: 13%;
     margin-right: 13%;
     margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.main__section {
+    margin-bottom: 156px;
 }
 
 nav {
@@ -34,12 +39,16 @@ nav {
 }
 
 .left__header {
+    font-family: Poppins;
+    font-weight: 400;
     font-size: 30px;
     line-height: 45px;
     grid-column: 1 ;
 }
 
 .rigth__header {
+    font-family: Poppins;
+    font-weight: 400;
     font-size: 24px;
     line-height: 36px;
 
@@ -61,7 +70,7 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -70,6 +79,8 @@ nav {
 }
 
 .writing {
+    font-family: Recursive;
+    font-weight: 400;
     color: rgb(255, 117, 117);
     margin-top: 0px;
     margin-bottom: 17px;
@@ -77,8 +88,18 @@ nav {
 }
 
 .under__logo__text {
+    font-family: Poppins;
+    font-weight: 400;
     font-size: 29px;
     line-height: 44px;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+hr {
+    border: 3px solid rgb(77, 77, 77);
+    opacity: 0.2;
+    width: 1680px;
     margin: 0px;
 }
 
@@ -87,33 +108,84 @@ nav {
     color: #62676e;
     justify-content: space-between;
     font-size: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 94px;
+}
+
+.logo__nav__text {
+    font-family: Recursive;
+    line-height: 32px;
+    font-size: 27px;
+    font-weight: 400;
 }
 
 .logo__nav1 {
-    margin-right: 15px;
+    margin-right: 1px;
 }
 
 .logo__nav2 {
-    margin-right: 30px;
+    margin-right: 41px;
 }
 
 .table {
     display: grid;
     color: rgb(0, 0, 0);
-    gap: 25px;
+    gap: 37px;
+    margin-bottom: 114px;
 }
 
 .rectangle {
-    border-radius: 30px;
-    padding: 10px;
+    padding: 26px;
     display: flex;
     flex-direction: column;
     background-color: white;
+    border: 1px solid rgb(37, 41, 48);
+    border-radius: 22px;
 }
 
 .center {
     text-align: center;
+    border-radius: 22px;
+    margin-bottom: 33px;
+}
+
+.name__text {
+    color: rgb(15, 18, 23);
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 11px;
+}
+
+.paragrath {
+    color: rgb(15, 18, 23);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: auto;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(15, 18, 23);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    justify-content: space-between;
+}
+
+.Ellipse {
+    width: 3.45px;
+    height: 3px;
+}
+
+.nav__text {
+    margin-right: 130px;
 }
 
 .table__1 {
@@ -126,4 +198,84 @@ nav {
 
 .table__3 {
     grid-column: 3;
+}
+
+.under__table {
+    display: flex;
+    color: rgb(144, 144, 144);
+    font-family: Recursive;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.p__text {
+    margin: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.red__line {
+    border: 1px solid rgb(255, 117, 117);
+    width: 51px;
+    margin-bottom: 19px;
+}
+
+.redColor {
+    color: rgb(255, 117, 117);
+}
+
+.previous {
+    margin-left: 0px;
+}
+
+.next {
+    margin-right: 0px;
+}
+
+.footer {
+    height: 70px;
+    color: white;
+}
+
+.hr {
+    margin-bottom: 33px;
+}
+
+.footer__all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.writing__dev {
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    margin: 0px;
+    margin-right: 16px;
+}
+
+.text__nickname {
+    display: flex;
+}
+
+.bird {
+    margin-right: 10px;
+}
+
+.footer__text {
+    display: flex;
+    border-radius: 5px;
+    background: rgb(70, 153, 224);
+    height: 34px;
+    font-family: Source Sans Pro;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 4px 13px;
+    align-items: center;
 }
