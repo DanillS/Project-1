@@ -51,7 +51,11 @@ nav {
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
+}
 
+.rigth__header:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .rigth__header__all {
@@ -118,12 +122,35 @@ hr {
     font-weight: 400;
 }
 
+.navText:hover {
+    transition: transform 0.1s;
+    transform: scale(1.1);
+    color: #909090;
+    cursor: pointer;
+}
+
+.gradient {
+    background: linear-gradient(270.00deg, rgb(35, 40, 48) 0.009%,rgba(35, 40, 48, 0) 87.5%);
+}
+
 .logo__nav1 {
-    margin-right: 1px;
+    margin-right: 2px;
+}
+
+.logo__nav1:hover{
+    transition: transform 0.1s;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .logo__nav2 {
     margin-right: 41px;
+}
+
+.logo__nav2:hover {
+    transition: transform 0.1s;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .table {
@@ -140,6 +167,12 @@ hr {
     background-color: white;
     border: 1px solid rgb(37, 41, 48);
     border-radius: 22px;
+    transition: transform 0.3s
+}
+
+.rectangle:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .center {
@@ -215,8 +248,13 @@ hr {
     margin: 0px;
     margin-right: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
+.scale:hover {
+    /* transition: transform 0.1s; */
+    transform: scale(1.1);
+}
 
 .red__line {
     border: 1px solid rgb(255, 117, 117);
