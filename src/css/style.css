@@ -13,7 +13,7 @@ body {
 .container {
     margin-left: 13%;
     margin-right: 13%;
-    margin-top: 3%;
+    margin-top: 75px;
     margin-bottom: 6%;
 }
 
@@ -103,7 +103,7 @@ nav {
 hr {
     border: 3px solid rgb(77, 77, 77);
     opacity: 0.2;
-    width: 1680px;
+    width: auto;
     margin: 0px;
 }
 
@@ -316,4 +316,8 @@ hr {
     line-height: 24px;
     padding: 4px 13px;
     align-items: center;
+}
+
+.footer__text:hover {
+    cursor: pointer;
 }
