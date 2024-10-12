@@ -95,12 +95,6 @@ nav {
     justify-content: space-between;
 }
 
-@media screen and  (max-width: 650px) {
-    .rigth__header__all {
-        flex-direction: column;
-    }
-}
-
 .logo__slang {
     display: flex;
     flex-direction: column;
@@ -140,8 +134,8 @@ hr {
 
 .nav__main {
     display: flex;
-    color: #62676e;
     justify-content: space-between;
+    color: #62676e;
     font-size: 25px;
     margin-bottom: 94px;
 }
@@ -351,4 +345,63 @@ hr {
 
 .footer__text:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+
+    .nav__header {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .rigth__header__all {
+        flex-direction: column;
+    }
+
+    .writing {
+        font-size: 50px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 80px;
+        top: 32px;
+        right:  20%;
+    }
+
+    .under__logo__text {
+        font-size: 20px;
+    }
+
+    .nav__main {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .table {
+        display: flex;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+
+    .scale {
+        display: none;
+    }
+
+    .footer__all {
+        display: block;
+    }
+
+    .text__nickname {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .footer__text {
+        justify-content: center;
+    }
 }
